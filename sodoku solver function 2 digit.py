@@ -55,8 +55,8 @@ while np.isnan(puzzle).any() == True: #itereate this so long as there are missin
                     puzzle[i,j] = int(possib[0])
                     #break #9 tries with, 4 without, 5 without 2-digit
                 if len(possib) == 2: #creating a possibility 3-d array
-                    possible2[i,j,0] = possib[0]
-                    possible2[i,j,1] = possib[1]    
+                    possible2[i,j,:] = possib
+                    #possible2[i,j,1] = possib[1]    
                 #if a number appears twice in a row or column that has 2 possibilities, then it can be removed, 
                 #as long as it is not one of the possibilities for the cell
                 for m in range(1,10):
