@@ -2,7 +2,8 @@ import numpy as np
 import pandas as pd
 import math
 
-puzzle = pd.read_csv("C:\\Users\\Stvma\\Documents\\GitHub\\Sodoku Solver\\puzzle 2.csv",header=None)
+#puzzle = pd.read_csv("C:\\Users\\Stvma\\Documents\\GitHub\\Sodoku Solver\\puzzle 2.csv",header=None)
+puzzle = pd.read_csv("C:\\Users\\smaci\\Documents\\GitHub\\Sodoku-Solver\\puzzle 5.csv",header=None)
 puzzle = np.array(puzzle)
 print(puzzle)
 
