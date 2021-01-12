@@ -1,7 +1,7 @@
 # Sodoku-Solver
 This project attemps to solve sudoko puzzles by creating a list of possible entries for each cell and using elimination to narrow them down to one. It has not yet been completed.
 
-**Brief Desctiption**<ul>
+**Brief Description:**<ul>
 <li>The function first imports the sudoku puzzle as a .csv and then converts it into a 2-D Array
 <li>Next box functions are defined
 <li>Then the digit check functions are defined
@@ -18,7 +18,7 @@ This project attemps to solve sudoko puzzles by creating a list of possible entr
 <li>It does the same for 4 digits
  </ul> 
   
- **Test Puzzles**<ul>
+ **Test Puzzles:**<ul>
 <li>Puzzle 1 is easy
 <li>Puzzle 2 is one of the hardest puzzles ever made
 <li>Puzzle 3 might not be correct
